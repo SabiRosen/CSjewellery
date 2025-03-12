@@ -1,0 +1,119 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background-color: #FFD4E1;
+    color: rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+h2{
+    color: #F65A89;
+}
+h3{
+    color: #FB9958;
+}
+
+.kort{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    
+    display: flex;
+    padding: 34px 18px;
+    gap: 32px;
+ }
+
+.kort img{
+    box-sizing: border-box;
+    height: 250px;
+    border: solid 6px #ffffff;
+    border-radius: 5px;
+}
+.kort h2{
+    margin-top: 30px;
+    color: #ffffff;
+}
+
+.kort a{
+    text-decoration: none;
+}
+.kort a:hover{
+    text-decoration: none;
+}
+
+.kort1{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #F65A89;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    height: 350px;
+    margin-left: 150px; /*skubber kortene fra venstre side*/  
+}
+
+
+.kort2{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #F65A89;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    height: 350px;
+}
+
+.kort3{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #F65A89;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    height: 350px;
+    margin-right: 150px; /*skubber kortene fra højre side*/
+}
+
+/*inspirations kort*/
+
+.inspirationskort{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    width: 100%;
+    padding: 34px 18px;
+    gap: 32px;
+    width: calc(100% - 300px); /* Giver 150px plads på hver side af containeren */
+    margin: 0 auto; /* Centrerer containeren */
+ }
+
+.inspirationskort img:first-child{
+    box-sizing: border-box;
+    height: 300px;
+    width: 280px;
+    margin: 0;
+    padding: 0;
+}
+
+.indreinspirationskort {
+    display: flex;
+    flex-direction: column; /* Sørg for at billederne i hver div bliver vist lodret */
+    justify-content: flex-start; /* Sørg for at billederne ikke strækkes */
+}
+
+.dots{
+    display: block;
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    align-self: flex-end; /* Sørger for at billedet er til højre */
+}
