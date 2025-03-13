@@ -19,6 +19,7 @@ header img{
     padding-left: 50px;
     padding-right: 50px;
     height: 80px;
+    z-index: 3;
 }
 
 #menubar img{
@@ -106,7 +107,7 @@ nav .dropdown-content li a:hover {
 
 
 footer{
-    display: flex; /*flexbox*/
+    display: flex;
     justify-content: space-between;
     background-color: #F65A89;
     color: #ffffff;
@@ -126,7 +127,7 @@ footer section{
     justify-content: space-between;
     margin: 20px;
     gap: 20px;
-    width: 100%;   
+    width: 100%;
 }
 
 footer section a{
@@ -148,7 +149,13 @@ footer h2{
     color:#ffffff;
     font-size: 25px;
     margin-top: 25px;
-    
+    font-family: Arial, Helvetica, sans-serif;
     line-height: 40PX;
     font-weight: bold;
+}
+
+footer p{
+    color:#ffffff;
+    font-size: 20px;
+    line-height: 40PX;
 }
