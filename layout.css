@@ -1,0 +1,170 @@
+.topimage{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.topimage img{
+    width: 1200px;
+    height: 250px;
+    border-radius: 5px;
+    
+}
+
+.indledning{
+    display: flex;
+    gap: 32px;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+.indledning img{
+    box-sizing: border-box;
+    height: 300px;
+    border: solid 6px #ffffff;
+    border-radius: 5px;
+}
+
+.indledning p{
+    display: inline-flex;
+    color: #000000;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding-top: 0px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 0px;
+    align-items: center;
+    line-height: 40px;
+    width: 600px;
+}
+
+.kort-container{
+    display: flex;
+    justify-content: center;  /* Centrerer kortene horisontalt */
+    gap: 32px;                /* Afstand mellem kortene */
+    padding: 20px;   
+}
+
+.kort{
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    width: 400px;
+    padding: 34px 18px;
+    gap: 32px;
+ }
+
+.kort img{
+    box-sizing: border-box;
+    height: 250px;
+    width: 280px;
+    border: solid 6px #ffffff;
+    border-radius: 5px;
+}
+.kort h2{
+    margin-top: 30px;
+    color: #ffffff;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.kort a{
+    text-decoration: none;
+}
+.kort a:hover{
+    text-decoration: none;
+}
+
+.kort1{
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #F65A89;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    height: 400px;
+}
+
+.kort2{
+    display: flex;
+    flex-direction: row;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    background: #F65A89;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px;
+    height: 350px;
+    width: 700px;
+    align-items: center;
+    
+}
+.kort2 img:first-child{
+    box-sizing: border-box;
+    height: 250px;
+    width: 280px;
+    border: solid 6px #ffffff;
+    border-radius: 5px;
+   
+}
+
+.kort2 p{
+    text-align: left;
+    margin-left: 45px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    color:#ffffff;
+}
+
+.arrow{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+.arrow img{
+    width: 30px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: none;
+}
+
+/*containeren som holder de to kolonner */
+.content-container {
+    display: flex;
+    justify-content: space-between;  /* Gør så de to div'er står i hver sin side */
+    gap: 20px;                      /* Afstand mellem kolonnerne */
+    width: 70%;                      /* Giver containeren 80% af skærmbredden */
+    margin: 0 auto;                  /* Centrerer containeren på skærmen */
+    padding: 50px 0;                 /* Giver lidt luft på toppen og bunden */
+}
+
+.content-container img{
+    box-sizing: border-box;
+    height: 400px;
+    width: 100%;  /* Billedet fylder nu hele bredden af sin kolonne */
+    border: solid 6px #ffffff;
+    border-radius: 5px;
+}
+
+.content-container h4{
+    font-size: 30px;
+}
+
+.left-column {
+    width: 40%;  /* Giver denne div næsten halvdelen af bredden */
+    box-sizing: border-box;  /* Sørger for at padding og border er inkluderet i bredden */
+}
+
+.right-column {
+    width: 40%;  /* Giver denne div næsten halvdelen af bredden */
+    box-sizing: border-box;  /* Sørger for at padding og border er inkluderet i bredden */
+}
+
+
