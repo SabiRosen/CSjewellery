@@ -20,6 +20,7 @@ header img{
     padding-right: 50px;
     height: 80px;
     z-index: 3;
+    margin-top: -4px;
 }
 
 #menubar img{
@@ -96,11 +97,6 @@ nav .dropdown-content li {
 nav .dropdown-content li a {
     padding: 8px 16px;
 }
-
-/* Hover effect for dropdown items 
-nav .dropdown-content li a:hover {
-    background-color:rgba(243, 110, 134, 0.7);
-}*/
 
 
 /*footer*/

@@ -39,6 +39,7 @@ h3{
     margin-left: 170px;
     font-family: 'just-another-hand-regular';
     font-size: 64px;
+    font-weight: 200;
 }
 
 p{
@@ -86,3 +87,5 @@ p{
     margin-top: 10px;
     align-self: flex-end; /* Sørger for at billedet er til højre */
 }
+
+/*inspiration hovereffect*/
