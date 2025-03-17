@@ -1,16 +1,4 @@
-.topimage{
-    display: block;
-    width: 100%;
-    margin-top: 10px;
-    text-align: center;
-}
 
-.topimage img{
-    width: 1200px;
-    height: 250px;
-    border-radius: 5px;
-    
-}
 
 .indledning{
     display: flex;
