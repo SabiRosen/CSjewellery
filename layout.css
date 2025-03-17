@@ -185,3 +185,55 @@
     top: 100px;
     font-size: 50px;
 }
+
+/*pile i bunden af skæremn*/
+
+.pil-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px;
+}
+.pil-container a{
+    text-decoration: none;
+}
+
+.venstre_pil, .højre_pil{
+    display: flex;
+    gap: 30px;
+    flex-direction: row;
+    justify-content: center;
+    gap:5px;
+}
+
+
+.venstre_pil img, .højre_pil img{
+    box-sizing: border-box;
+    height: 30px;
+}
+
+.venstre_pil h4{
+    display: inline-flex;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    width: 200px;
+    padding-left:20px;
+}
+.højre_pil h4{
+    display: inline-flex;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    width: 200px;
+    padding-left: 60px;
+}
+
+.venstre_pil img, .højre_pil img{
+    box-sizing: border-box;
+    height: 30px;
+}
