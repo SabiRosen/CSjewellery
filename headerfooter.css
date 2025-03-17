@@ -101,13 +101,20 @@ nav .dropdown-content li a {
 
 /*footer*/
 
+footer{
+    background-color: #F65A89;
+    position: relative;
+    width: 100%;
+    padding: 10px;
+    margin-top: 20px;
+    z-index: 3;
+}
 
 .footer-container{
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     text-align: center;
-    background-color: #F65A89;
     color: #ffffff;
     font-size: 25px;
     width: 100%;
