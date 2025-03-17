@@ -42,6 +42,14 @@ h3{
     font-size: 64px;
     font-weight: 200;
 }
+h4{
+    color: #F65A89;
+}
+h5{
+    color: #F65A89;
+    font-size: 20px;
+    font-weight: bold;
+}
 
 p{
     font-family: Arial, Helvetica, sans-serif;
