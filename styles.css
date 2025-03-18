@@ -31,13 +31,11 @@ h1{
 }
 h2{
     color: #F65A89;
-    margin-left: 170px;
     font-family: 'just-another-hand-regular';
     font-size: 64px;
 }
 h3{
     color: #FB9958;
-    margin-left: 170px;
     font-family: 'just-another-hand-regular';
     font-size: 64px;
     font-weight: 200;
@@ -104,7 +102,7 @@ p{
     justify-content: space-between;
     align-items: flex-end;
     padding: 34px 18px;
-    gap: 35px;
+    gap: 40px;
     width: calc(100% - 300px); /* Giver 150px plads på hver side af containeren */
     margin: 0 auto; /* Centrerer containeren */
  }

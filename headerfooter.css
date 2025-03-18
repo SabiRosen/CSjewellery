@@ -19,7 +19,7 @@ header img{
     padding-left: 50px;
     padding-right: 50px;
     height: 80px;
-    z-index: 3;
+    z-index: 3; 
     margin-top: -4px;
 }
 
@@ -86,7 +86,7 @@ nav .dropdown-content {
     position: absolute;
     background-color:rgba(246, 90, 137, 0.9);
     min-width: 160px;
-    z-index: 1;
+    z-index: 4;
 }
 
 nav .dropdown-content li {
@@ -102,14 +102,60 @@ nav .dropdown-content li a {
 /*footer*/
 
 footer{
+    display: flex;
     background-color: #F65A89;
     position: relative;
+    justify-content: center;
     width: 100%;
     padding: 10px;
-    margin-top: 20px;
-    z-index: 3;
+    bottom:0;
+    z-index: 2;
 }
 
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.footer-container h2{
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+}
+
+.footer1{
+    text-align: left;
+    margin-left: 20px;
+    margin-right: 300px;
+}
+.footer2{
+    text-align: center;
+}
+.footer3{
+    display: flex;
+    text-align: left;
+    margin-left: 400px;
+    margin-right: 20px;
+    flex-direction: column;
+}
+footer div a{
+    color:#ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    flex-direction: column;
+}
+
+footer div a:hover{
+    color: #f62665
+}
+
+footer p{
+    color:#ffffff;
+    font-size: 20px;
+    line-height: 40PX;
+}
+/*
 .footer-container{
     display: flex;
     justify-content: space-between;
@@ -118,12 +164,12 @@ footer{
     color: #ffffff;
     font-size: 25px;
     width: 100%;
-    bottom:0; /*ikke noget whitespace mellem footer og bunden af siden*/
+    bottom:0; 
     padding-left: 50px;
     padding-right: 50px;
     padding: 10px;
     margin: 0;
-    z-index: 3;
+    z-index: 1;
 }
 
 .footer1{
@@ -145,6 +191,7 @@ footer div a:hover{
 }
 
 footer h2{
+    display: flex;
     color:#ffffff;
     font-size: 25px;
     font-family: Arial, Helvetica, sans-serif;
@@ -156,4 +203,7 @@ footer p{
     color:#ffffff;
     font-size: 20px;
     line-height: 40PX;
+    text-align: center;
 }
+
+*/
