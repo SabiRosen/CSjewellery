@@ -191,6 +191,22 @@
     line-height: 40px;
 }
 
+.intro2{
+    margin-left: 300px;
+    margin-right: 300px;
+    text-align: left;
+}
+.intro2 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+.intro2 h4{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 40px;
+}
+
 /*pile i bunden af skæremn*/
 
 .pil-container{
@@ -316,4 +332,58 @@
 
 .search-button:hover {
     color: #F65A89;
+}
+
+/*om os*/
+
+.omos-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    padding: 50px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.omos-container img{
+    box-sizing: border-box;
+    height: 280px;
+    width: 280px;
+    border: solid 6px #ffffff;
+    border-radius: 5px;
+}
+
+.omos-container a{
+    text-decoration: none;
+}
+
+.omos-container h2{
+    margin-top: 30px;
+    color: #ffffff;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+}
+
+.omos-billeder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 150px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.omos-billeder img{
+    box-sizing: border-box;
+    width: 280px;
+}
+
+.ny_h2{
+    display: flex;
+    color: #000000;
+    width: 600px;
+    text-align: center;
+    align-items: center;
 }
