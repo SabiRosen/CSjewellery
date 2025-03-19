@@ -367,6 +367,15 @@
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
 }
+.omos-container h3{
+    margin-top: 140px;
+    color: #000000;
+    margin-left: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;  
+    font-weight: bold;
+    text-align: center;
+}
 
 .omos-billeder{
     display: flex;
@@ -380,12 +389,4 @@
 .omos-billeder img{
     box-sizing: border-box;
     width: 280px;
-}
-
-.ny_h2{
-    display: flex;
-    color: #000000;
-    width: 600px;
-    text-align: center;
-    align-items: center;
 }
