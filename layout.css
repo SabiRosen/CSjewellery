@@ -1,6 +1,11 @@
 #tekst{
     margin-left: 170px;
 }
+.tekst{
+    margin-left: 250px;
+    margin-right: 900px;
+    font-size: 20px;
+}
 
 .indledning{
     display: flex;
