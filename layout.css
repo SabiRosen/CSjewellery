@@ -1,9 +1,8 @@
 #tekst{
-    margin-left: 170px;
+    margin-left: 17%;
 }
 .tekst{
-    margin-left: 250px;
-    margin-right: 900px;
+    margin-left: 16%;
     font-size: 20px;
 }
 
@@ -39,19 +38,18 @@
 
 .kort-container{
     display: flex;
-    justify-content: center;  /* Centrerer kortene horisontalt */
-    gap: 32px;                /* Afstand mellem kortene */
-    padding: 20px;   
+    justify-content: center;
+    padding: 20px;
 }
 
 .kort{
     display: flex;
     flex-direction: row;
     justify-content:center;
-    align-items: center;
+    align-items: flex-end;
     width: 400px;
     padding: 34px 18px;
-    gap: 32px;
+    gap: 10%;
  }
 
 .kort img{
@@ -142,7 +140,7 @@
 
 .content-container img{
     box-sizing: border-box;
-    height: 400px;
+    height: 320px;
     width: 100%;  /* Billedet fylder nu hele bredden af sin kolonne */
     border: solid 6px #ffffff;
     border-radius: 5px;
@@ -171,7 +169,7 @@
 
 #hero{
     display: flex;
-    width: 100%; /*sætter en størrelse for vores hero boks*/
+    width: 100%; 
     position: relative;
     align-items: center;
     justify-content: center;
@@ -179,8 +177,7 @@
 }
 
 #hero img{
-    width: 80%; /*sætter en størrelse for vores hero boks*/
-    height: 500px;
+    width: 80%; 
     object-fit: cover;
     z-index: 0;
     margin-top: 50px;
@@ -219,8 +216,9 @@
 .pil-container{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     padding: 20px;
+    gap: 70%;
 }
 .pil-container a{
     text-decoration: none;
@@ -228,10 +226,8 @@
 
 .venstre_pil, .højre_pil{
     display: flex;
-    gap: 30px;
     flex-direction: row;
     justify-content: center;
-    gap:5px;
 }
 
 
@@ -242,23 +238,21 @@
 
 .venstre_pil h4{
     display: inline-flex;
-    margin-left: 0px;
+    margin-left: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
     align-items: center;
-    width: 200px;
-    padding-left:20px;
+    max-width: 200px;
 }
 .højre_pil h4{
     display: inline-flex;
-    margin-left: 0px;
+    margin-right: 10px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-weight: bold;
     align-items: center;
-    width: 200px;
-    padding-left: 60px;
+    max-width: 200px;
 }
 
 .venstre_pil img, .højre_pil img{
@@ -283,16 +277,16 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 200px;
+    gap: 5%;
     padding: 50px;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .værktøj img{
     box-sizing: border-box;
     height: 350px;
-    width: 350px;
+    width: 25%;
     border: solid 2px #000000;
     border-radius: 5px;
 }
@@ -308,6 +302,12 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
 }
+.værktøj_tekst{
+    width: 14%;
+}
+.værktøj_tekst2{
+    width: 400px;
+}
 
 /*søgefelt*/
 
@@ -318,7 +318,7 @@
     border-radius: 20px;
     padding: 5px 10px;
     width: 250px;
-    margin-left: 1090px;
+    margin-left: 72%;
 }
 
 .search-input {
@@ -347,10 +347,10 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 200px;
+    gap: 10%;
     padding: 50px;
-    margin-left: 250px;
-    margin-right: 250px;
+    margin-left: 16%;
+    margin-right: 16%;
 }
 
 .omos-container img{
@@ -394,4 +394,8 @@
 .omos-billeder img{
     box-sizing: border-box;
     width: 280px;
+}
+
+.omos-content{
+    max-width: 400px;
 }
